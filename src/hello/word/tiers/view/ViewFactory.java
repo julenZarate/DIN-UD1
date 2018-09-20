@@ -6,6 +6,7 @@
 package hello.word.tiers;
 
 import hello.word.tiers.view.ViewImplementationFrame;
+import hello.word.tiers.view.ViewImplementationJFX;
 
 /**
  *
@@ -13,7 +14,7 @@ import hello.word.tiers.view.ViewImplementationFrame;
  */
 public class ViewFactory {
     public static View getView(){
-        return new ViewImplementationFrame();
+        return new ViewImplementationJFX();
 
     }
 }

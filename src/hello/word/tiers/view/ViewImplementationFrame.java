@@ -22,8 +22,8 @@ public class ViewImplementationFrame implements View{
 				JOptionPane.INFORMATION_MESSAGE);
         frame.dispose();
     }
-
     
     
-
+    
+    
 }
