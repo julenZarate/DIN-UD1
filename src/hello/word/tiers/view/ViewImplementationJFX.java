@@ -39,7 +39,10 @@ public class ViewImplementationJFX extends Application implements View{
         //Show Scene
         stage.show();
     }
-    
+    /**
+     * Method show
+     * @param greeting 
+     */
     @Override
     public void showGreeting(String greeting) {
         ViewImplementationJFX.greeting = greeting;    
