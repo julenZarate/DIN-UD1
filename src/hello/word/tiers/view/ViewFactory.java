@@ -13,7 +13,12 @@ import hello.word.tiers.view.ViewImplementationJFX;
  * @author Julen Zarate
  */
 public class ViewFactory {
+    /**
+     * Get a view implementation
+     * @return the view implementation
+     */
     public static View getView(){
+       
         return new ViewImplementationJFX();
 
     }

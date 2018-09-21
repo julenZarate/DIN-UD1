@@ -48,5 +48,12 @@ public class ViewImplementationJFX extends Application implements View{
         ViewImplementationJFX.greeting = greeting;    
         launch(greeting);
     }
-    
+    @Override
+    public void init(){
+        this.greeting= getParameters().getRaw().get(0);
+    }
+   
+    public void setGreeting(String greeting){
+        this.greeting = greeting;
+    }
 }
